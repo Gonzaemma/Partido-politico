@@ -1,6 +1,8 @@
 
 import './App.css'
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import NavBar from './components/NavBar'
+import Home from './components/Home'
 
 function App() {
 
@@ -8,7 +10,7 @@ function App() {
     <>
       <div>
         <NavBar/>
-        <h1>Vite + React</h1>
+        <Home/>
       </div>
     </>
   )
