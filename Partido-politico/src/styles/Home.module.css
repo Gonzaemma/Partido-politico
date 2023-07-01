@@ -1,0 +1,7 @@
+.centerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0;
+    /* background: linear-gradient(rgb(34, 33, 33), rgba(231, 230, 231, 0.333)); */
+}
